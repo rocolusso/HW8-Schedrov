@@ -1,0 +1,52 @@
+
+div {
+    box-sizing: border-box;
+}
+
+
+/*text*/
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+
+    width: 1600px;
+    min-width: 1250px;
+}
+
+header {
+
+    height: 100px;
+    display: flex;
+}
+
+.logo {
+    margin-left: 140px;
+    margin-top: 45px;
+}
+
+.navigation ul li {
+    display: inline;
+
+}
+
+nav {
+    margin-top: 45px;
+
+}
+.navigation {
+
+    margin-left: 400px;
+}
+
+li {
+
+    margin: 20px 30px;
+}
