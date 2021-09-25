@@ -1,0 +1,219 @@
+/*text*/
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #6f7173;
+}
+
+.copyright h3 {
+    color: #6f7173;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cart_zagolovok h2, h3 {
+    color: #6f7173;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.content-header {
+    height: 90px;
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul li {
+    display: inline;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6f7173;
+    font-family: 'open sans', sans-serif;
+    padding: 31px 0;
+    border-bottom: 4px solid transparent;
+
+}
+
+ul li a:hover {
+    transition: .3s;
+    border-color: #5094f2;
+}
+
+
+li:not(:last-child) {
+    padding: 0 20px;
+}
+
+.bg_image {
+
+    background-image: url("./../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.phone img {
+
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.text_btn p {
+    color: white;
+}
+
+.btn {
+    margin: 20px;
+}
+
+.btn_img {
+
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+
+}
+
+span {
+    padding: 10px;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #5094f2;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    transition-duration: .4s;
+    display: flex;
+    align-items: center;
+    height: 30px;
+
+}
+
+
+button:hover {
+    background-color: #5054f2;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.text_btn {
+    color: white;
+}
+
+.blocks_content {
+    background-color: white;
+}
+
+.blocks_items {
+    display: flex;
+    align-content: center;
+}
+
+.item_image img {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 150px;
+    height: auto;
+}
+
+.item_zagolovok h2 {
+    text-align: center;
+    color: #5094f2;
+}
+
+.item_text p {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #909090;
+}
+
+
+.cart_text p {
+    padding: 10px 0;
+}
+
+
+.cart_text3 {
+    padding-top: 20px;
+}
+
+.cart_image {
+
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 240px;
+
+
+}
+
+.cart_items {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.cart_text {
+    padding-left: 200px;
+
+}
+
+.cart_content {
+    margin: 20px 0;
+}
+
+footer {
+
+    border-top: #909090 solid 1px;
+}
+
+footer .container {
+    height: 50px;
+}
+
+.copyright {
+    margin-top: 25px;
+    text-align: center;
+
+}
