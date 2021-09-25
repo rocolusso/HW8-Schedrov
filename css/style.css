@@ -61,7 +61,9 @@ li:not(:last-child) {
 }
 
 .bg_image {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("./../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,18 +71,12 @@ li:not(:last-child) {
 
 }
 
-.banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 .phone img {
 
     padding-top: 40px;
     padding-bottom: 10px;
-    padding-left: 50px;
+    padding-right: 120px;
 }
 
 .text_btn p {
